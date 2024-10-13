@@ -25,3 +25,11 @@
     - que se passe-t-il si vous avez déclaré i avec let ?
     - que se passe-t-il si vous déclarez i avec var ?
 */
+const table=parseInt(prompt("Quel table de multiplication voulez vous ?"));
+console.log(`Je voudrais afficher les 10 premières valeurs de la table de multiplication par ${table}`);
+for (let i = 1; i <= 10; i++) {
+    let resultat = i * table;//Prend i et le multipli par le chiffre donner par l'utilisateur
+    console.log(`${i} * ${table} = ${resultat}`);//Permet d'afficher le calculer, on peut juste mettre resultat
+}
+//var peut afficher j en dehors de la boucle
+//let ne peut pas afficher i en dehors de la boucle

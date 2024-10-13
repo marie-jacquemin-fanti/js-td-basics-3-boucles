@@ -25,8 +25,18 @@ BONUS :
 - Après avoir quitté la boucle, affichez dans la console la chaîne complète saisie par l'utilisateur en concaténant les lettres.
 */
 
+let lettre = ""; // Initialisation de la variable pour stocker la lettre saisie
+let chaineComplete = ""; // Initialisation de la chaîne complète pour stocker toutes les lettres
 
+while (lettre !== "X") { // La boucle continue tant que la lettre n'est pas "X"
+    lettre = prompt("Tapez une lettre ou X pour sortir :"); // Demande à l'utilisateur de saisir une lettre
 
+    if (lettre !== "X") { // Vérifie si la lettre saisie n'est pas "X"
+        chaineComplete += lettre; // Concatène la lettre à la chaîne complète
+    }
+}
+
+console.log("Vous avez saisi : " + chaineComplete);     //Bonus
 
 
 // code avec le bonus

@@ -19,3 +19,9 @@ Ecrivez un programme qui va deviner le nombre auquel vous avez pensé (voir livr
 	ces fonctions, y compris leurs paramètres et les valeurs qu'elles retournent.
 */
 // Écrivez le code JavaScript pour résoudre cet exercice en essayant de deviner le nombre auquel l'utilisateur pense.
+
+
+let randomNumber = Math.random();                  //Nombre aléatoire entre 0 et 1. S'affiche quand on met un log.
+let randomNumber = Math.floor();                  //Donne l'arrondi vers le bas d'un nombre décimal. On lui donne une valeur.
+
+

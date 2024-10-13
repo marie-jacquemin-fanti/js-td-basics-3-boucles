@@ -15,3 +15,13 @@ Affichez les x premières valeurs des n premières tables de multiplication :
 */
 // Commencez par demander à l'utilisateur jusqu'à quelle table de multiplication il souhaite aller et combien de valeurs il souhaite afficher pour chaque table.
 // Ensuite, utilisez une ou plusieurs boucles pour calculer et afficher les x premières valeurs des n premières tables de multiplication.
+
+let jusquaTable = parseInt(prompt("Jusqu'à quelle table de multiplication souhaitez-vous aller ? (ex: 5)"));
+let nbValeurs = parseInt(prompt("Combien de valeurs souhaitez-vous afficher pour chaque table ? (ex: 10)"));
+for (let table = 1; table <= jusquaTable; table++) {
+    console.log(`Table de multiplication de ${table} :`);
+    for (let i = 1; i <= nbValeurs; i++) {
+        console.log(`${table} x ${i} = ${table * i}`);
+    }
+    console.log('------------------------');
+}

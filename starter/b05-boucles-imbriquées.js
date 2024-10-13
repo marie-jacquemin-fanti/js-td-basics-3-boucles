@@ -22,3 +22,13 @@
   - Écrivez l'expression à afficher dans le console.log d'une manière alternative,
     en utilisant le concept de template littéral.
 */
+
+console.log("Table de multiplication :");        //Un petit titre
+
+for (let i = 1; i <= 5; i++) {           //Les 5 premier table de multiplication.
+    for (let j = 1; j <= 10; j++) {      //Les 10 nombres qu'il y à dans une table de multiplication.
+        console.log(`${i} * ${j} = ${i * j}`);   //Afficher le résultat
+    }
+    console.log('Table suivante');               // Ligne pour séparer les tables
+}
+

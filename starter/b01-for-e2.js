@@ -26,3 +26,8 @@ EXEMPLE 2 :
   - C'est le tour numéro 10
   - Le manège s'arrête
 */
+console.log("premier tour");
+for (let i=1; i<=10; i++){
+    console.log("C'est le tour" + i);
+}
+console.log("Le manège s'arrete");
