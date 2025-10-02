@@ -14,3 +14,11 @@ EXEMPLE 3 :
 //    - Affichez 'nombre' dans la console si 'nombre' est un nombre pair.
 //    - Incrémentez 'nombre' pour passer au nombre suivant.
 
+let number = 0;
+
+while(number <= 20){
+    if(number % 2 === 0){
+        console.log(number)
+    }
+    number++
+}

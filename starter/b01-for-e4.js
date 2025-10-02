@@ -25,3 +25,8 @@
     - que se passe-t-il si vous avez déclaré i avec let ?
     - que se passe-t-il si vous déclarez i avec var ?
 */
+
+const table = prompt("Donner un table");
+for (let i = 1; i <= 10; i++ ) {
+    console.log(table * i);
+}

@@ -14,6 +14,7 @@
     - étape : incrémentez le compteur pour définir COMMENT AVANCER dans la boucle
 */
 
+
 /*
 EXEMPLE 1 :
 - Affichez les nombres de 1 à 10
@@ -23,8 +24,14 @@ EXEMPLE 1 :
 */
 
 // 1°) sans boucle : Écrivez ici toutes les instructions à la main, une par une
+console.log("de 1 à 10");
 
 // 2°) avec boucle FOR : Écrivez ici le code de la boucle FOR
+for (let number = 1; number <= 10; number++) {
+    console.log(number);
+}
+
+
 
 // N.B. TABLE D'ÉVOLUTION DES VARIABLES :
 //   nbre      nbre < =10           console.log(nbre)        nbre++

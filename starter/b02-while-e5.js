@@ -24,7 +24,11 @@ EXEMPLE 5 :
 BONUS :
 - Après avoir quitté la boucle, affichez dans la console la chaîne complète saisie par l'utilisateur en concaténant les lettres.
 */
+let letter = prompt("Metter n'importe qu'elle lettre, mais si vous voulez sortire tapper X :")
 
+while (letter !== "x" && letter !== "X"){ // Pourquoi ici les le && veut dire l'inverce de ||, à cause de ! ?
+    letter = prompt("Metter n'importe qu'elle lettre, mais si vous voulez sortire tapper X :")
+}
 
 
 
