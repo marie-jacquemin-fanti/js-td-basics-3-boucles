@@ -22,3 +22,9 @@
   - Écrivez l'expression à afficher dans le console.log d'une manière alternative,
     en utilisant le concept de template littéral.
 */
+for (let hour = 0; hour <= 23 ; hour++) {
+    for (let minute = 0; minute < 60 ; minute++) {
+        console.log(`Il est ${hour}h${minute}`);
+    }
+}
+
