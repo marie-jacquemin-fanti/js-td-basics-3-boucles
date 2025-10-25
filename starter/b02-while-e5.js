@@ -26,8 +26,9 @@ BONUS :
 */
 let table = [];
 
-let letter = prompt("Metter n'importe qu'elle lettre, mais si vous voulez sortire tapper X :")
+let let
 
+ter = NaN;
 while (letter !== "x" && letter !== "X"){ // Pourquoi ici les le && veut dire l'inverce de ||, à cause de ! ?
     table.push(letter);
     letter = prompt("Metter n'importe qu'elle lettre, mais si vous voulez sortire tapper X :")

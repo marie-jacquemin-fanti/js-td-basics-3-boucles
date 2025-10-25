@@ -27,4 +27,21 @@ while (numberGuess < numberUser){
     console.log(`Ce n'est pas ${numberGuess}`);
     numberGuess++
 }
-console.log(`Le nombre auquelle tu pense est ${numberGuess}`)
+console.log(`Le nombre auquelle tu pense est ${numberGuess}`);
+
+
+
+
+
+
+
+/*
+const numberGuessB = Math.floor(Math.random()*10);
+let numberA = 0;
+
+while (numberA !== numberGuessB){
+    console.log(`Ce n'est pas ${numberGuessB}`);
+    numberA++
+}
+console.log(`Le nombre auquelle tu pense est ${numberGuessB}`);*/
+
